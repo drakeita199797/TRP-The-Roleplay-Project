@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRP | The Roleplay Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-white font-sans selection:bg-cyan-500 scroll-smooth">
+
+    <!-- HERO SECTION ADATTIVA -->
+    <header class="relative h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden border-b border-neutral-900">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(6,182,212,0.12)_0,transparent_100%)] z-0"></div>
+        
+        <div class="z-10 max-w-4xl space-y-6">
+            <span class="text-xs uppercase tracking-[0.3em] text-cyan-400 font-bold bg-cyan-950/50 px-4 py-1.5 rounded-full border border-cyan-800/30">
+                FiveM Storytellers Collective
+            </span>
+            <h1 class="text-6xl md:text-8xl font-black tracking-tight uppercase bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-500">
+                TRP PROJECT
+            </h1>
+            <p class="text-lg md:text-2xl text-neutral-300 font-light max-w-2xl mx-auto leading-relaxed">
+                Voi ci dite di cosa ha bisogno il vostro server. <br class="hidden md:inline">
+                <span class="text-cyan-400 font-semibold">Noi creiamo la storia.</span>
+            </p>
+            <p class="text-neutral-500 max-w-xl mx-auto text-sm">
+                Siamo un collettivo d'élite di roleplayer professionisti. Analizziamo le criticità della vostra città e plasmiamo lore e interazioni su misura per riattivare il gameplay e intrattenere l'utenza.
+            </p>
+            <div class="pt-6 flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contatti" class="px-8 py-4 bg-cyan-600 hover:bg-cyan-700 font-bold rounded-lg transition duration-300 shadow-[0_0_25px_rgba(6,182,212,0.4)] text-sm uppercase tracking-wider">
+                    Configura il tuo Progetto
+                </a>
+                <a href="#candidature" class="px-8 py-4 bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 font-bold rounded-lg transition duration-300 text-sm uppercase tracking-wider text-neutral-400">
+                    Unisciti al Team
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CHI SIAMO (STRUTTURA ADATTATA SENZA NUMERO MEMBRI + RECRUITING) -->
+    <section id="chisiamo" class="py-24 px-4 max-w-6xl mx-auto border-b border-neutral-900">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-4xl font-extrabold uppercase tracking-tight">Chi Siamo & Filosofia</h2>
+            <div class="h-1 w-12 bg-cyan-500 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <h3 class="text-2xl font-bold text-cyan-400">Un blocco unico, camaleontico e organizzato.</h3>
+                <p class="text-neutral-400 leading-relaxed">
+                    TRP non è una community pubblica di massa. Siamo un gruppo compatto nato con l'unico obiettivo di portare Roleplay di qualità superiore all'interno dei server di FiveM Italia. Non cerchiamo fazioni pronte da farmare, né portiamo dinamiche preconfezionate. 
+                </p>
+                <p class="text-neutral-400 leading-relaxed">
+                    Il nostro valore aggiunto è l'estrema versatilità: ci muoviamo insieme per riempire i vuoti di trama dei server in cui entriamo, garantendo una presenza solida e una cultura del no-flame totale.
+                </p>
+                <div class="pt-4 grid grid-cols-2 gap-4">
+                    <div class="border border-neutral-900 p-4 rounded-lg bg-neutral-900/30">
+                        <div class="text-cyan-400 font-black text-xl mb-1">ZERO</div>
+                        <div class="text-xs uppercase tracking-wider text-neutral-500">OOC Drama / Tossicità</div>
+                    </div>
+                    <div class="border border-neutral-900 p-4 rounded-lg bg-neutral-900/30">
+                        <div class="text-cyan-400 font-black text-xl mb-1">100%</div>
+                        <div class="text-xs uppercase tracking-wider text-neutral-500">Adattamento IC</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLOCCO RECRUITING NELLA PAGINA INIZIALE DI CHI SIAMO -->
+            <div id="candidature" class="border border-cyan-900/40 p-8 rounded-xl bg-gradient-to-b from-cyan-950/20 to-transparent relative overflow-hidden shadow-[0_0_30px_rgba(6,182,212,0.05)]">
+                <div class="absolute top-0 right-0 bg-cyan-500 text-neutral-950 text-xs font-black uppercase px-3 py-1 rounded-bl-lg tracking-widest">
+                    Open
+                </div>
+                <h3 class="text-2xl font-extrabold uppercase tracking-tight mb-2">Sei un Player di Qualità?</h3>
+                <p class="text-sm text-neutral-400 mb-6">
+                    Siamo sempre alla ricerca di roleplayer validi che condividano la nostra stessa visione. Se sei stanco del farming continuo, dei pianti OOC e vuoi far parte di un gruppo organizzato che muove le storie delle città, proponi la tua candidatura.
+                </p>
+                
+                <ul class="space-y-3 text-sm text-neutral-300 mb-6">
+                    <li class="flex items-start gap-2">
+                        <span class="text-cyan-400 font-bold">✓</span> Interpretazione IC matura e rigida aderenza alla Lore.
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-cyan-400 font-bold">✓</span> Capacità di accettare le sconfitte in-game (carcere, perdite economiche).
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-cyan-400 font-bold">✓</span> Zero tossicità e massima disponibilità al lavoro di squadra.
+                    </li>
+                </ul>
+
+                <a href="https://discord.gg/fPhDwQVke2" class="block text-center w-full py-3 bg-neutral-900 hover:bg-neutral-800 border border-neutral-800 text-cyan-400 font-bold rounded-lg transition duration-300 text-sm uppercase tracking-wider">
+                    Apri un Ticket per Candidarti
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- METODO TRP -->
+    <section id="metodo" class="py-24 px-4 max-w-6xl mx-auto border-b border-neutral-900">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-4xl font-extrabold uppercase tracking-tight">Come Operiamo nei Server</h2>
+            <p class="text-neutral-500 mt-2">Dall'analisi iniziale all'immissione nel gameplay.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-6 border border-neutral-900 bg-neutral-900/20 rounded-xl space-y-4">
+                <div class="w-12 h-12 bg-cyan-950 text-cyan-400 flex items-center justify-center rounded-lg font-black text-xl border border-cyan-800/30">01</div>
+                <h4 class="text-xl font-bold uppercase">L'Analisi del Server</h4>
+                <p class="text-sm text-neutral-400 leading-relaxed">
+                    Studiamo l'ecosistema della vostra città. Capiamo se c'è una fazione piatta, se manca movimento dal lato criminale o se la polizia ha bisogno di stimoli investigativi veri.
+                </p>
+            </div>
+            <div class="p-6 border border-neutral-900 bg-neutral-900/20 rounded-xl space-y-4">
+                <div class="w-12 h-12 bg-cyan-950 text-cyan-400 flex items-center justify-center rounded-lg font-black text-xl border border-cyan-800/30">02</div>
+                <h4 class="text-xl font-bold uppercase">Scrittura Lore Adattiva</h4>
+                <p class="text-sm text-neutral-400 leading-relaxed">
+                    Plasmiamo un background, una struttura e un sistema di regole interne totalmente personalizzato, nato appositamente per incastrarsi con la storia attuale del server.
+                </p>
+            </div>
+            <div class="p-6 border border-neutral-900 bg-neutral-900/20 rounded-xl space-y-4">
+                <div class="w-12 h-12 bg-cyan-950 text-cyan-400 flex items-center justify-center rounded-lg font-black text-xl border border-cyan-800/30">03</div>
+                <h4 class="text-xl font-bold uppercase">Immissione e Sviluppo</h4>
+                <p class="text-sm text-neutral-400 leading-relaxed">
+                    Entriamo in gioco coordinati. Generiamo scene di altissima qualità che lasciano indizi reali, creano economia sommersa e spingono gli altri player a interagire e divertirsi.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CRITICITÀ & SOLUZIONI -->
+    <section class="py-24 px-4 max-w-5xl mx-auto border-b border-neutral-900">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-4xl font-extrabold uppercase tracking-tight">Risolviamo i Problemi della Città</h2>
+        </div>
+
+        <div class="space-y-6">
+            <div class="p-6 border border-neutral-900 rounded-xl bg-neutral-900/10 flex flex-col md:flex-row md:items-center gap-4 justify-between">
+                <div>
+                    <h5 class="font-bold text-lg text-neutral-200">La Polizia è demotivata e fa solo routine?</h5>
+                    <p class="text-sm text-neutral-500 mt-1">La nostra risposta adattiva</p>
+                </div>
+                <p class="text-sm text-cyan-400 font-medium md:max-w-md bg-cyan-950/30 border border-cyan-900/30 p-4 rounded-lg">
+                    Entriamo nel comparto legale introducendo dinamiche interne meritocratiche, indagini complesse da risolvere a lungo termine e trame investigative profonde.
+                </p>
+            </div>
+
+            <div class="p-6 border border-neutral-900 rounded-xl bg-neutral-900/10 flex flex-col md:flex-row md:items-center gap-4 justify-between">
+                <div>
+                    <h5 class="font-bold text-lg text-neutral-200">La Criminalità fa solo sparatorie e rapine rapide?</h5>
+                    <p class="text-sm text-neutral-500 mt-1">La nostra risposta adattiva</p>
+                </div>
+                <p class="text-sm text-cyan-400 font-medium md:max-w-md bg-cyan-950/30 border border-cyan-900/30 p-4 rounded-lg">
+                    Generiamo un'economia sommersa basata su accordi complessi e lore. Muoviamo i civili, creiamo eventi clandestini di intrattenimento e lasciamo tracce reali per i reparti investigativi.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER CONTATTI FOR FOUNDER -->
+    <footer id="contatti" class="py-24 px-4 bg-neutral-950 text-center relative overflow-hidden">
+        <div class="max-w-3xl mx-auto space-y-6 relative z-10">
+            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight">Sei il proprietario di un server?</h2>
+            <p class="text-neutral-400 max-w-xl mx-auto text-sm md:text-base leading-relaxed">
+                Hai una realtà No-WL o Full-WL con del potenziale e cerchi un gruppo serio che faccia la differenza? Apri un ticket nel nostro Discord, spiegaci le tue esigenze e noi pianificheremo la storia perfetta per la tua città.
+            </p>
+            <div class="pt-4">
+                <a href="https://discord.gg/fPhDwQVke2" class="inline-block px-10 py-4 bg-cyan-600 hover:bg-cyan-700 font-bold rounded-lg transition duration-300 text-sm uppercase tracking-widest shadow-[0_0_30px_rgba(6,182,212,0.3)]">
+                    Parla con lo Staff (Discord)
+                </a>
+            </div>
+            <div class="pt-16 text-xs text-neutral-600 border-t border-neutral-900/50">
+                © 2026 TRP | The Roleplay Project. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
